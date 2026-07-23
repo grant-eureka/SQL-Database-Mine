@@ -1,0 +1,35 @@
+# This file contains metadata for this plugin.
+
+[general]
+name=SQL Database Mine
+version=1.06.03
+qgisMinimumVersion=3.40
+qgisMaximumVersion=4.99
+supportsQt6=True
+description=QGIS Plugin to mine related data from a SQL database server.
+
+about=Mine data from selected features within a QGIS vector layer.
+  Related data derived from a layer's Relationships and Joins can then be searched by selecting the required relationship.
+  Once related data is searched, you can keep mining deeper with any further relationships.
+  Where a vector layer is stored within a SQL database, the search is executed on the SQL database server, utilising the database indexes for rapid responses.
+  If the related data has GIS features, these can be selected and zoomed into on the QGIS map.
+  Rows of selected data can be copied into the clipboard for use in other applications.
+  A query form is also included to enable SQL database searches and view the resulting features on the QGIS map.
+  The inbuilt QGIS features to view table data loads and scans the layers full data, which is unusable for large datasets.
+  SQL Database Mine performs the query on the database server and only deals with the resulting dataset.
+
+author=Grant Pearson, Eureka Technology Limited
+email=grant.eureka@xtra.co.nz
+homepage=https://github.com/grant-eureka/SQL-Database-Mine
+tracker=https://github.com/grant-eureka/SQL-Database-Mine
+repository=https://plugins.qgis.org/
+
+changelog=
+  1.06.02
+    Release to QGIS plugin repository.
+
+tags=QGIS, python, vector, attribute, table, feature, SQL, database, server, relation, join, index, query, inquiry
+category=Database
+icon=icon.svg
+experimental=True
+deprecated=False

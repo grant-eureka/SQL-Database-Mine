@@ -1,0 +1,4 @@
+# This file contains additional metadata for this application.
+
+[license]
+general=Available under GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007
